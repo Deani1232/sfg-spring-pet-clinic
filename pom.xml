@@ -6,15 +6,17 @@
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.6.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>co.deanirwin</groupId>
     <artifactId>sfg-spring-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>sfg-spring-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
