@@ -16,7 +16,7 @@
 
     <groupId>co.deanirwin</groupId>
     <artifactId>sfg-spring-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>sfg-spring-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
