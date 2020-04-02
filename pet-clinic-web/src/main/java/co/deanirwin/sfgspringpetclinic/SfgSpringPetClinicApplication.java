@@ -1,4 +1,4 @@
-package sfgspringpetclinic;
+package co.deanirwin.sfgspringpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
