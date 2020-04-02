@@ -16,7 +16,7 @@
 
     <groupId>co.deanirwin</groupId>
     <artifactId>sfg-spring-pet-clinic</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>sfg-spring-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -43,7 +43,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Deani1232/sfg-spring-pet-clinic.git</developerConnection>
-      <tag>sfg-spring-pet-clinic-0.0.4</tag>
+      <tag>sfg-spring-pet-clinic-0.0.3</tag>
   </scm>
 
 </project>
