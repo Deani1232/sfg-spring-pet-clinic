@@ -5,9 +5,6 @@ import co.deanirwin.sfgspringpetclinic.models.Vet;
 import co.deanirwin.sfgspringpetclinic.services.PetOwnerService;
 import co.deanirwin.sfgspringpetclinic.services.PetService;
 import co.deanirwin.sfgspringpetclinic.services.VetService;
-import co.deanirwin.sfgspringpetclinic.services.map.PetOwnerServiceMap;
-import co.deanirwin.sfgspringpetclinic.services.map.PetServiceMap;
-import co.deanirwin.sfgspringpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -20,11 +17,11 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetService petService;
 
-
-    public DataLoader() {
-        petOwnerService = new PetOwnerServiceMap();
-        vetService = new VetServiceMap();
-        petService = new PetServiceMap();
+    //Autowired singleton bean services.
+    public DataLoader(PetOwnerService petOwnerService, VetService vetService, PetService petService) {
+        this.petOwnerService = petOwnerService;
+        this.vetService = vetService;
+        this.petService = petService;
     }
 
     @Override

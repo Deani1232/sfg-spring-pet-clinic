@@ -2,9 +2,11 @@ package co.deanirwin.sfgspringpetclinic.services.map;
 
 import co.deanirwin.sfgspringpetclinic.models.PetOwner;
 import co.deanirwin.sfgspringpetclinic.services.PetOwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetOwnerServiceMap extends AbstractMapService<PetOwner, Long> implements PetOwnerService {
 
     @Override
