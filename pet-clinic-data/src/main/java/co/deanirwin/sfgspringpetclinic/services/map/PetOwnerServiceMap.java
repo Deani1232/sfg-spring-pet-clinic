@@ -21,7 +21,7 @@ public class PetOwnerServiceMap extends AbstractMapService<PetOwner, Long> imple
 
     @Override
     public PetOwner save(PetOwner object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
