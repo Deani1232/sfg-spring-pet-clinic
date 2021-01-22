@@ -9,6 +9,7 @@ Here are some of the technologies used for this project:
 - Spring MVC
 - Spring Cloud
 - Spring Data
+- Hibernate Object Relational Mapping (ORM)
 - H2 Database
 - Docker
 - CSS
